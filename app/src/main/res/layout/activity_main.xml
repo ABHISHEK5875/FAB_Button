@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+       <!--FAB FOR COPY-->
+    <android.support.design.widget.FloatingActionButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|end"
+        android:layout_marginRight="16dp"
+        android:layout_marginBottom="178dp"
+        android:src="@drawable/ic_content_copy_black_24dp"
+        android:elevation="6dp"
+        android:id="@+id/fab_menu"
+        app:pressedTranslationZ="12dp"
+        android:backgroundTint="@color/fab1_color"
+        android:visibility="invisible"
+
+        />
+             <!--FAB FOR MIC -->
+    <android.support.design.widget.FloatingActionButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|end"
+        android:layout_marginRight="16dp"
+        android:layout_marginBottom="125dp"
+        android:src="@drawable/ic_mic_none_black_24dp"
+        android:elevation="6dp"
+        android:id="@+id/fab_fb"
+        app:pressedTranslationZ="12dp"
+        android:backgroundTint="@color/colorPrimaryDark"
+        android:visibility="invisible"
+
+        />
+       <!--FAB for delete icon-->
+    <android.support.design.widget.FloatingActionButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|end"
+        android:layout_marginRight="16dp"
+        android:layout_marginBottom="70dp"
+        android:src="@drawable/ic_delete_black_24dp"
+        android:elevation="6dp"
+        android:id="@+id/fab_twitter"
+        app:pressedTranslationZ="12dp"
+        android:backgroundTint="@color/fab2_color"
+        android:visibility="invisible"
+
+        />
+    <!--FAB for main icon - plus icon-->
+    <android.support.design.widget.FloatingActionButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|end"
+        android:layout_marginRight="16dp"
+        android:layout_marginBottom="16dp"
+        android:src="@drawable/ic_add_black_24dp"
+        android:elevation="6dp"
+        android:id="@+id/fab_plus"
+        app:pressedTranslationZ="12dp"
+
+        />
+
+
+
+
+</android.support.design.widget.CoordinatorLayout>
